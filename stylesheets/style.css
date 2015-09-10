@@ -17,6 +17,7 @@ h1{ text-align:center; width:100%;}
 body{overflow-x:hidden; }
 h4{color:red; text-align:center; width:100%; font-family: 'Lato', sans-serif;}
 #banner>h1,#banner>p{position:relative; font-family: 'Lato', sans-serif; top:-75%; text-align:left; color:white; margin-left:5%; width:340px;}
+
 #banner>h4{margin-top:0%;}
 .tiles>p{position:relative; margin-left:5%; font-size:12px; font-family: 'Open Sans', sans-serif;}
 
