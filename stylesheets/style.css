@@ -6,7 +6,7 @@
     height: 300px;
     
 } 
-#banner>img{width:83.5em;}
+#banner>img{width:100%;}
 img{width:100%; height:250px;}
 #ipsum{ margin-top:1%; width:99.5%; height:100px; argin-left:-1.3%;}
 button{background: #080808; color: silver; width:99.5%; padding:12px; border:1px solid silver;  border-radius:0px; argin-left:-1.3%; outline:none; cursor:pointer;}
