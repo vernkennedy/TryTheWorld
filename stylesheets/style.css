@@ -25,6 +25,6 @@ h4{color:red; text-align:center; width:100%; font-family: 'Lato', sans-serif;}
 	img{position:relative; width: 189.5%; height:350px;}
 	#banner{width:1500px; margin:5px;}
 	#banner>h1,#banner>p{text-align:center; max-width:360px; top:-75%;}
-	.tiles {height: 370px; padding-bottom:25px;} 
+	.tiles {height: 370px; padding-bottom:25px; width: 444px;} 
 	h4{position:relative; margin-top:12%; }
 }
