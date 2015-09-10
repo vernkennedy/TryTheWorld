@@ -23,7 +23,7 @@ h4{color:red; text-align:center; width:100%; font-family: 'Lato', sans-serif;}
 	/*Media Queries*/
 @media only screen and (max-width: 1200px) {	
 	#banner>h1,#banner>p{text-align:center; width:360px; top:-105%;}
-	.tiles {height: 370px; padding-bottom:14.5%; width: 994px;}
+	.tiles {height: 370px; padding-bottom:14.5%; width: 1294px;}
 	.tiles>img{height:450px; width:102%;}
 	h4{position:relative; margin-top:12%; }
 #banner>img{width:299.5em; height:370px; }	
