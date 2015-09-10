@@ -9,9 +9,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<!--jQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		
-		
-<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<!--AngularJS-->
+		<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 		<!--Stylesheet-->
 		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 	</head>
@@ -31,12 +30,18 @@
 		<!--Tiles header text-->
 		<h4>CHEFS BRING THEIR COUNTRY TO YOUR DOOR</h4>
 			<!--The three tiles-->
-			<div class="tiles" > {{ x.image_url}} {{ x.regular_text}} {{ x.bold_text}}
-				<img src="https://cdn.shopify.com/s/files/1/0209/2570/files/howitworks1.png?7836453234859632951"/>
-				<p>FOR EACH COUNTRY <br><b>A CELEBRITY CHEF</b><p>
+			<div class="tiles" ng-repeat="x in names" >   
+				<img src="{{ x.image_url}}"/>
+				<p>{{ x.regular_text}}<br><b>{{ x.bold_text}}</b><p>
 			</div>
 
-
+		 <!-- NO LONGER NEEDED (Can be used if not using AngularJS)-->
+			<!-- 
+			<div class="tiles">
+				<img src="https://cdn.shopify.com/s/files/1/0209/2570/files/howitworks1.png?7836453234859632951"/>
+				<p>FOR EACH COUNTRY<br><b>A CELEBRITY CHEF</b><p>
+			</div>
+			
 			<div class="tiles">
 				<img src="https://cdn.shopify.com/s/files/1/0209/2570/files/howitworks2.png?7836453234859632951"/>
 				<p>FOR EACH CHEF<br><b>A CURATED BOX JUST FOR YOU</b><p>
@@ -47,7 +52,7 @@
 				<img src="https://cdn.shopify.com/s/files/1/0209/2570/files/howitworks3.png?7836453234859632951"/>
 				<p>FOR EACH BOX <br><b>A DELICIOUS ADVENTURE</b><p>
 			</div>
-			
+			-->
 		
 		<!--Button with ipsum div-->
 		<div id="wrapper" class="tiles">
@@ -61,22 +66,6 @@
 			</div>
 		</div>
 
-		<div id="demo" > 
-
-		
-			<div ng-repeat="x in names">
-				<img src="{{ x.avatar_url}}">
-				<h3 align="center">{{ x.project_name }}</h3>
-				<a href="{{x.description}}">Description</a>
-				<a href="{{x.demo_url}}">{{x.demotype}}</a>
-				<a href="{{x.code_url}}">Code</a><br><br>
-				<b>Summary</b><br>{{x.summary}}<br><br>
-				<b>Front-end Technologies used:</b><br>{{x.frontend_infor}}<br><br>
-				<b>Middle Tier and Backend Technologies used:</b><br>{{x.backend_infor}} 
-			</div>
-		
-		
-	</div>
 		<!--jQuery script (Toggle function)-->
 		<script src="javascripts/toggle.js"></script>
 		<script src="javascripts/tiles.js"></script>
