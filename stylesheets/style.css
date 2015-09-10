@@ -16,18 +16,18 @@ h1{ text-align:center; width:100%;}
 #banner{width:1500px; height:300px;}
 body{overflow-x:hidden; }
 h4{color:red; text-align:center; width:100%; font-family: 'Lato', sans-serif;}
-#banner>h1,#banner>p{position:relative; font-family: 'Lato', sans-serif; top:-75%; text-align:left; color:white; margin-left:5%; max-width:360px;}
+#banner>h1,#banner>p{position:relative; font-family: 'Lato', sans-serif; top:-75%; text-align:left; color:white; margin-left:5%; width:340px;}
 #banner>h4{margin-top:0%;}
 .tiles>p{position:relative; margin-left:5%; font-size:12px; font-family: 'Open Sans', sans-serif;}
 
 	/*Media Queries*/
 @media only screen and (max-width: 1200px) {	
-	#banner>h1,#banner>p{ext-align:center;  top:-105%;}
+	#banner>h1,#banner>p{ext-align:center; width:360px; top:-105%;}
 	.tiles {height: 370px; padding-bottom:14.5%; width: 1020px;}
 	.tiles>img{height:450px; width:102%;}
 	h4{position:relative; margin-top:12%; }
 #banner>img{width:299.5em; height:370px; }	
-#banner{width:120%; height:300px; margin-left:-2%; overflow:hidden;}
+#banner{width:110%; height:300px; margin-left:-2%; overflow:hidden;}
 body{ width:100%; overflow-x:hidden;}
 button{width:106.3%; }
 }
