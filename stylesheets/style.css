@@ -1,13 +1,13 @@
 .tiles {
     float: left;
     margin: 5px;
-	padding-bottom: 0px;
+	padding-bottom: 5%;
     width: 433px;
     height: 300px;
     
 } 
 #banner>img{width:83.5em;}
-img{width:100%; height:250px;}
+img{width:100%; height:300px;}
 #ipsum{ margin-top:1%; width:99.5%; height:100px; argin-left:-1.3%;}
 button{background: #080808; color: silver; width:99.5%; padding:12px; border:1px solid silver;  border-radius:0px; argin-left:-1.3%; outline:none; cursor:pointer;}
 button:hover{background:cacaca; color: white;}
@@ -22,8 +22,9 @@ h4{color:red; text-align:center; width:100%; font-family: 'Lato', sans-serif;}
 
 	/*Media Queries*/
 @media only screen and (max-width: 1000px) {	
-	#banner>h1,#banner>p{text-align:center; max-width:360px; top:-75%;}
-	.tiles {height: 470px; padding:25px; width: 954px;} 
+	#banner>h1,#banner>p{text-align:center; width:360px; top:-105%;}
+	.tiles {height: 370px; padding-bottom:14.5%; width: 954px;}
+	.tiles>img{height:450px;}
 	h4{position:relative; margin-top:12%; }
 #banner>img{width:299.5em; height:370px; }	
 #banner{width:110%; height:300px; margin-left:-2%; overflow:hidden;}
