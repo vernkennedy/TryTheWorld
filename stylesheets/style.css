@@ -2,7 +2,7 @@
     float: left;
     margin: 5px;
 	padding-bottom: 0px;
-    width: 434px;
+    width: 654px;
     height: 300px;
     
 } 
@@ -29,5 +29,5 @@ h4{color:red; text-align:center; width:100%; font-family: 'Lato', sans-serif;}
 	
 #banner{width:1500px; height:300px; margin-left:-5%; overflow-x:hidden;}
 body{ width:100%; overflow-x:hidden;}
-#banner>img{width:99.5em;}
+#banner>img{width:199.5em;}
 }
