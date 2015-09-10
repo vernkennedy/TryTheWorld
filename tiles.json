@@ -1,0 +1,21 @@
+{
+"records": [
+  {
+  "image_url" : "https://cdn.shopify.com/s/files/1/0209/2570/files/howitworks1.png?7836453234859632951",
+	"regular_text" : "FOR EACH COUNTRY",
+	"bold_text" : "A CELEBRITY CHEF"
+  },
+  
+  {
+  "image_url" : "https://cdn.shopify.com/s/files/1/0209/2570/files/howitworks2.png?7836453234859632951",
+	"regular_text" : "FOR EACH CHEF",
+	"bold_text" : "A CURATED BOX JUST FOR YOU"
+  },
+  
+  {
+  "image_url" : "https://cdn.shopify.com/s/files/1/0209/2570/files/howitworks3.png?7836453234859632951",
+	"regular_text" : "FOR EACH BOX",
+	"bold_text" : "A DELICIOUS ADVENTURE"
+  }
+]
+}
